@@ -51,8 +51,22 @@ We need to calculate the angle between the hands on a clock face. For example in
 ### Acceptance Criteria:-
 
 1) Code to perform the calculation
+   By using GET method call , we can see the conversion of time to angle
+   Request:
+   http://127.0.0.1:5000/test_angle/05:30
+   
+   Response:
+   {
+     "angle": 15.0
+   }
+    
 1) How will you deploy this solution (in code or as a todo list if time is limited). i.e. how and where will this run?
+   to dod
 1) How will you manage any infrastructure needed?
+  Scalability is taken care by GCP
 1) Delivered as a feature branch in the repo fork
+    feature_angle-kartikey is created
 1) Bonus points for a working deployed solution in GCP or Azure that you can demo at the "sprint review" (ie interview)
+   To dod
 1) Any DevOps/Cicd components that would support this feature in a production setting
+ NA
